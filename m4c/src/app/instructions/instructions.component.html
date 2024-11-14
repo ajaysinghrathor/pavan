@@ -1,0 +1,29 @@
+
+<p style="color: blue; align-self: center;">Instructions</p>
+<p></p>
+<h2>Please read the instructions carefully before begin assessment. If you are comfertable then click on:  <a class="button" routerLink="/profile">Complete you Profile</a></h2>
+<p></p>
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8 table">
+  <!-- Position Column 
+  <ng-container matColumnDef="position">
+    <th mat-header-cell *matHeaderCellDef> No. </th>
+    <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+  </ng-container> -->
+
+  <!-- Name Screen= M4C sheet tab name -->
+  <ng-container matColumnDef="tab">
+    <th mat-header-cell *matHeaderCellDef> M4C Sheet Tab Name </th>
+    <td mat-cell *matCellDef="let element"> {{element.tab}} </td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="instruction">
+    <th mat-header-cell *matHeaderCellDef> Instructions </th>
+    <td mat-cell *matCellDef="let element"> {{element.instruction}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+
+

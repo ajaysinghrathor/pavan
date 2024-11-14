@@ -1,0 +1,16 @@
+npm install -g @angular/cli
+
+ng new m4capp
+
+## USe to start the app.
+npm start
+
+ng add @angular/material
+
+ng generate service services/assesment
+
+Laskar (app.component.html, home, login)
+Pavan (Instruction, M4C, Dashboard, Profile)
+
+
+sdfksjgd;lgjds;ljg

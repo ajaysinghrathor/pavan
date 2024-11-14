@@ -1,0 +1,59 @@
+<p>profile works!</p>
+<h2>Post setup your profile click on to complete:  <a  class="button" routerLink="/m4c">Assessment</a></h2>
+
+<!-- [formGroup]="myForm"-->
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <label for="field1">Account Name:</label>
+    <input id="field1" formControlName="field1">
+  </div>
+
+  <div>
+    <label for="field2">Project Name:</label>
+    <input id="field2" formControlName="field2">
+  </div>
+
+  <div>
+    <label for="field3">Geo:</label>
+    <input id="field3" formControlName="field3">
+  </div>
+
+  <div>
+    <label for="field4">Account Contacts - Name & Email:</label>
+    <input id="field4" formControlName="field4">
+  </div>
+
+  <div>
+    <label for="field5">No of FTE:</label>
+    <input id="field5" formControlName="field5">
+  </div>
+
+  <div>
+    <label for="field6">Contract Type:</label>
+    <input id="field6" formControlName="field6">
+  </div>
+
+  <div>
+    <label for="field7">GP % (current year and past 2 years):</label>
+    <input id="field7" formControlName="field7">
+  </div>
+
+  <div>
+    <label for="field8">New signing expected or in pipeline:</label>
+    <input id="field8" formControlName="field8">
+  </div>
+
+  <div>
+    <label for="field9">Please provide a brief summary of the technology landscape.
+      Does the portfolio include package applications (SAP/Oracle etc)?:</label>
+    <input id="field9" formControlName="field9">
+  </div>
+
+  <div>
+    <label for="field10">What are the objectives of doing this assessment (Profitability improvement, Contract renewal, innovation etc)?:</label>
+    <input id="field10" formControlName="field10">
+  </div>
+
+  <button type="submit" [disabled]="myForm.invalid">Submit</button>
+</form>
+
