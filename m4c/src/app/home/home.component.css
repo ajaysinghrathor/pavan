@@ -1,0 +1,59 @@
+/* Main container styling for the home page */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures full screen height */
+    background-color: #e6f2ff; /* Light blue background */
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* Ensures padding doesn't affect centering */
+  }
+  
+  /* Welcome title styling */
+  .home-title {
+    font-size: 2em;
+    color: #333333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Subtitle styling */
+  .home-subtitle {
+    font-size: 1.2em;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+  
+  /* Login button styling */
+  .button.login-button {
+    display: inline-block;
+    padding: 14px 32px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(135deg, #4954b8, #4954b8); 
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px rgba(76, 109, 175, 0.3);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  .button.login-button:hover {
+    background: linear-gradient(135deg, #4954b8, #4954b8);
+    box-shadow: 0 10px 20px rgba(76, 109, 175, 0.3);
+    transform: translateY(-2px);
+  }
+  
+  /* Active button effect */
+  .button.login-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 6px 12px rgba(76, 175, 80, 0.2);
+  }
+  

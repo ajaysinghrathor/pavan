@@ -1,0 +1,58 @@
+/* Main container styling */ 
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6f2ff; /* Light blue background */
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Login message styling */
+  .login-message {
+    font-size: 1.8em;
+    color: #333333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Instruction text styling */
+  .instruction-text {
+    font-size: 1.1em;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+  
+  /* Begin Assessment button styling */
+  .button.begin-assessment-button {
+    display: inline-block;
+    padding: 14px 32px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(135deg, #4954b8, #4954b8); 
+    border: none;
+    border-radius: 50px; /* Rounded button */
+    box-shadow: 0 8px 16px rgba(76, 109, 175, 0.3); /* Soft shadow */
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  .button.begin-assessment-button:hover {
+    background: linear-gradient(135deg, #4954b8, #4954b8); /* Inverted gradient */
+    box-shadow: 0 10px 20px rgba(76, 109, 175, 0.3); /* Enhanced shadow */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  /* Active button effect */
+  .button.begin-assessment-button:active {
+    transform: translateY(1px); /* Pressed-down effect */
+    box-shadow: 0 6px 12px rgba(76, 175, 80, 0.2); /* Reduced shadow on click */
+  }
+  

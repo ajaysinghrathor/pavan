@@ -1,4 +1,4 @@
-.table {
+/* .table {
   width: 50%;
 }
 
@@ -15,4 +15,62 @@
   border: 1px solid currentColor;
   padding-left: 20px;
 }
+ */
+/* Center the main heading at the top */
+h2 {
+  text-align: center;
+  font-size: 2em; /* Increase size for emphasis */
+  margin-top: 0;
+}
 
+/* Style the "Please read" instruction paragraph */
+p {
+  font-size: 1.1em; /* Slightly reduce font size */
+  color: blue; /* Keep color blue as specified */
+  text-align: center; /* Center-align the instruction */
+}
+
+/* Style the "Instructions" table heading */
+th.mat-header-cell {
+  font-size: 1.2em; 
+  text-align: center; 
+}
+
+/* Style the table */
+table.mat-elevation-z8.table {
+  width: 100%; 
+  margin-top: 20px; 
+}
+td:nth-child(1) {
+  border-right: 1px solid;
+}
+td {
+  padding: 0 10px;
+}
+table {
+  border: 1px solid;
+}
+th:nth-child(1) {
+  border-right: 1px solid;
+}
+th {
+  padding: 0 10px;
+}
+table {
+  border: 1px solid;
+}
+/* Style the "Complete your Profile" button link */
+a.button {
+  display: block;
+  margin: 20px auto 0 auto; 
+  text-align: center;
+  font-size: 1.1em; 
+  color: black; 
+  padding: 5px 10px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+a.button:hover {
+  background-color: #0056b3; 
+}

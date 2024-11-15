@@ -4,13 +4,13 @@
 <table mat-table [dataSource]="dataSource" class="mat-elevation-z8 itable">
   <!-- Position Column -->
   <ng-container matColumnDef="id">
-    <th mat-header-cell *matHeaderCellDef> No. </th>
+    <th mat-header-cell *matHeaderCellDef > No. </th>
     <td mat-cell *matCellDef="let element"> {{element.id}} </td>
   </ng-container> 
 
   <!-- Name Screen= M4C sheet tab name -->
   <ng-container matColumnDef="attributes">
-    <th mat-header-cell *matHeaderCellDef> Attributes </th>
+    <th mat-header-cell *matHeaderCellDef > Attributes </th>
     <td mat-cell *matCellDef="let element"> {{element.attributes}} </td>
   </ng-container>
 
@@ -64,4 +64,4 @@
 </table>
 
 
-<h2>Now click on:  <a  class="button" routerLink="/dashboard">Dashboard</a></h2>
+<p > Now click on:  <a  class="button" routerLink="/dashboard">Dashboard</a></p>

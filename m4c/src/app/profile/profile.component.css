@@ -1,0 +1,111 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  /* .form-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  label::after {
+    content: "";
+    margin-left: 5px;
+    margin-right: 10px;
+  } */
+  /* Container styling for the form */
+  form {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    margin-left : 22.5%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2 {
+    color: #1a73e8;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  label {
+    display: block;
+    font-size: 0.9rem;
+    color: #4a4a4a;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    transition: border-color 0.2s;
+  }
+  
+  /* Focused input styling */
+  input[type="text"]:focus {
+    border-color: #1a73e8;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(26, 115, 232, 0.3);
+  }
+  
+  button {
+    background-color: #1a73e8;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  button:disabled {
+    background-color: #c5d7f1;
+    cursor: not-allowed;
+  }
+  
+  /* Hover effect for the button */
+  button:not(:disabled):hover {
+    background-color: #1669c1;
+  }
+  
+  /* Custom link button */
+  a.button {
+    background: #1669c1; ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  a.button:hover {
+    background-color: #1669c1;
+  }
+  
