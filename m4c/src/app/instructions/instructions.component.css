@@ -65,12 +65,20 @@ a.button {
   margin: 20px auto 0 auto; 
   text-align: center;
   font-size: 1.1em; 
-  color: black; 
+  color: #ffffff;
   padding: 5px 10px;
   text-decoration: none;
   width: fit-content;
+  border-radius: 6px;
+  background-color: #0056b3;
 }
 
 a.button:hover {
   background-color: #0056b3; 
 }
+.colored-asterisk {
+  color: red; /* Change to your desired color */
+  font-weight: bold; /* Optional for emphasis */
+}
+
+
